@@ -4,7 +4,7 @@ library(readxl)
 library(lubridate)
 
 ## Set working directory
-setwd(file.path(dirname(getwd()), "2a_data_cleaning"))
+setwd(file.path(dirname(getwd()), "2a_0_data_cleaning"))
 
 ## Load datasets
 storm_winds_ADM2 <- read_csv("storm_winds_ADM2.csv")

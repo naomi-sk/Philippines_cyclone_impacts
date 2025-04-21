@@ -2,6 +2,7 @@
 library(tidyverse)
 library(readxl)
 library(lubridate)
+library(sf)
 
 ## Set working directory
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
