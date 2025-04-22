@@ -2,9 +2,6 @@
 library(tidyverse)
 library(lubridate)
 
-# Set working directory
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-
 # Path to ERA5 .rds files
 era5_folder <- "../../../01_data/1a_era_temp/"
 
