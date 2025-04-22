@@ -1,7 +1,6 @@
 ## Load libraries
 library(tidyverse)
 library(lubridate)
-library(sf)
 
 # Set working directory
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
